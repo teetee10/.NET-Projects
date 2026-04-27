@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/API/" />
+  <Folder Name="/src/Core/">
+    <Project Path="DentalManagementSystem.Application/DentalManagementSystem.Application.csproj" Id="395e01c1-0590-4478-873d-2a5f8f2c3a92" />
+    <Project Path="DentalManagementSystem.Domain/DentalManagementSystem.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Infrastructure/" />
+  <Folder Name="/tests/">
+    <Project Path="DentalManagementSystem.Test/DentalManagementSystem.Tests.csproj" />
+  </Folder>
+</Solution>
