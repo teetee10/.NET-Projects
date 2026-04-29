@@ -1,11 +1,15 @@
 <Solution>
   <Folder Name="/src/" />
-  <Folder Name="/src/API/" />
+  <Folder Name="/src/API/">
+    <Project Path="DentalManagementSystem.API/DentalManagementSystem.API.csproj" Id="f6973e69-5bbc-45a7-ab00-211e9902d218" />
+  </Folder>
   <Folder Name="/src/Core/">
     <Project Path="DentalManagementSystem.Application/DentalManagementSystem.Application.csproj" Id="395e01c1-0590-4478-873d-2a5f8f2c3a92" />
     <Project Path="DentalManagementSystem.Domain/DentalManagementSystem.Domain.csproj" />
   </Folder>
-  <Folder Name="/src/Infrastructure/" />
+  <Folder Name="/src/Infrastructure/">
+    <Project Path="DentalManagementSystem.Persistence/DentalManagementSystem.Persistence.csproj" Id="e3febec5-2cac-4bfd-a0ce-410f7bbd7b00" />
+  </Folder>
   <Folder Name="/tests/">
     <Project Path="DentalManagementSystem.Test/DentalManagementSystem.Tests.csproj" />
   </Folder>

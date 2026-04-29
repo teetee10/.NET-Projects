@@ -1,0 +1,16 @@
+@DentalManagementSystem.API_HostAddress = http://localhost:5208/api/dentaloffices
+
+GET {{DentalManagementSystem.API_HostAddress}}/019DD685-FFEA-7320-B788-1A08B79EA281
+ACCEPT: application/json
+
+###
+
+POST {{DentalManagementSystem.API_HostAddress}}
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "New Dental Office"
+}
+
+###
